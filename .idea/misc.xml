@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/05_web" />
+    <file type="web" url="file://$PROJECT_DIR$/06_1_servlet" />
+    <file type="web" url="file://$PROJECT_DIR$/06_servlet" />
+    <file type="web" url="file://$PROJECT_DIR$/07_servlet" />
+    <file type="web" url="file://$PROJECT_DIR$/08_jsp" />
+    <file type="web" url="file://$PROJECT_DIR$/09_EL_JSTL" />
+    <file type="web" url="file://$PROJECT_DIR$/13_cookie_session" />
+    <file type="web" url="file://$PROJECT_DIR$/15_filter" />
+    <file type="web" url="file://$PROJECT_DIR$/16_json_ajax_i18n" />
+    <file type="web" url="file://$PROJECT_DIR$/book" />
+    <file type="web" url="file://$PROJECT_DIR$/book0" />
+    <file type="web" url="file://$PROJECT_DIR$/demo" />
+    <file type="web" url="file://$PROJECT_DIR$/demo_05" />
+    <file type="web" url="file://$PROJECT_DIR$/web_05" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/05_web/web/pom.xml" />
+        <option value="$PROJECT_DIR$/05_web/pom.xml" />
+        <option value="$PROJECT_DIR$/06_servlet/pom.xml" />
+        <option value="$PROJECT_DIR$/07_servlet/pom.xml" />
+        <option value="$PROJECT_DIR$/book___/pom.xml" />
+        <option value="$PROJECT_DIR$/bookpro/pom.xml" />
+        <option value="$PROJECT_DIR$/08_jsp/pom.xml" />
+        <option value="$PROJECT_DIR$/09_EL_JSTL/pom.xml" />
+        <option value="$PROJECT_DIR$/13_cookie_session/pom.xml" />
+        <option value="$PROJECT_DIR$/15_filter/pom.xml" />
+        <option value="$PROJECT_DIR$/bookbak/pom.xml" />
+        <option value="$PROJECT_DIR$/book0/pom.xml" />
+        <option value="$PROJECT_DIR$/16_json_ajax_i18n/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

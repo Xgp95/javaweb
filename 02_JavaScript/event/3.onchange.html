@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        function onchangeFun() {
+            alert("女神已经改变");
+        }
+
+        window.onload = function () {
+            var elementById = document.getElementById("id01");
+            elementById.onchange = function () {
+                alert("男神已经改变");
+            }
+
+        }
+    </script>
+</head>
+<body>
+    请选择女神：
+    <select onchange="onchangeFun()">
+        <option>--请选择--</option>
+        <option>迪丽热巴</option>
+        <option>古力娜扎</option>
+        <option>佟丽娅</option>
+    </select><br/>
+    请选择男神：
+    <select id="id01">
+        <option>--请选择--</option>
+        <option>刘德华</option>
+        <option>张学友</option>
+        <option>黎明</option>
+    </select>
+</body>
+</html>

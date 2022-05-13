@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<books>
+    <book sn="sn78979879810">
+        <name>三体</name>
+        <author>大刘</author>
+        <price>9.9</price>
+    </book>
+    <book sn="sn78979879811">
+        <name>时间简史</name>
+        <author><![CDATA[霍金]]></author>
+        <price>20.0</price>
+    </book>
+    <book sn="sn78979879812" name="葵花宝典" author="东方不败" price="10"></book>
+</books>

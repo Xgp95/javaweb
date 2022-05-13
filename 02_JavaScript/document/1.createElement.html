@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        function onloadFun(){
+            var event = document.createElement("div");
+            var text = document.createTextNode("hello world!");
+            event.appendChild(text);
+            document.body.appendChild(event);
+        }
+
+        window.onload = function () {
+            var event = document.createElement("div");
+            event.innerHTML = "hello world";
+            document.body.appendChild(event);
+        }
+    </script>
+</head>
+<!--<body onload="onloadFun()">-->
+<body>
+</body>
+</html>

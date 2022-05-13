@@ -1,0 +1,23 @@
+.class01{
+    color: blue;
+    font-size: 30px;
+    border: 1px solid yellow;
+}
+
+.class02{
+    color: grey;
+    font-size: 26px;
+    border: 1px solid red;
+}
+
+#id001{
+    color: blue;
+    font-size: 30px;
+    border: 1px yellow solid;
+}
+
+#id002{
+    color: red;
+    font-size: 20px;
+    border: 5px blue dotted ;
+}

@@ -1,0 +1,10 @@
+# 项目排除路径
+/05_web/target/
+/06_servlet/target/
+/07_servlet/target/
+/08_jsp/target/
+/09_EL_JSTL/target/
+/13_cookie_session/target/
+/16_json_ajax_i18n/target/
+/book0/target/
+/out/

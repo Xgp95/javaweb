@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        function onsunmitFun() {
+            alert("静态注册")
+            return true;
+        }
+
+        window.onload = function () {
+            var elementById = document.getElementById("id01")
+            elementById.onsubmit = function () {
+                alert("动态注册")
+                return true;
+            }
+        }
+    </script>
+</head>
+<body>
+    <form action="http://localhost:8080" method="get" onsubmit="return onsunmitFun()">
+        <input type="submit" value="静态">
+    </form>
+    <form action="http://localhost:8080" method="get" id="id01">
+        <input type="submit" value="动态" >
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        function onblurfun(){
+            console.log("静态onblur");
+        }
+
+        window.onload = function () {
+            var elementById = document.getElementById("id01");
+            elementById.onblur = function () {
+                console.log("动态onblur");
+            }
+
+        }
+    </script>
+</head>
+<body>
+    用户名：<input type="text" onblur="onblurfun()"><br/>
+    密码： <input type="text" id="id01">
+</body>
+</html>

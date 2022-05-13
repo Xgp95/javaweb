@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        function onClickFun(){
+            alert("静态onclick");
+        }
+
+        window.onload = function () {
+            var byId = document.getElementById("id01")
+            byId.onclick = function () {
+                alert("动态onclick")
+            }
+        }
+    </script>
+</head>
+<body>
+    <button onclick="onClickFun()">按钮1</button>
+    <button id="id01">按钮2</button>
+</body>
+</html>

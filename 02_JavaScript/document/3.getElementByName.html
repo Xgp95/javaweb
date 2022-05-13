@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        // function onclickAll() {
+        //     var elementsAll = document.getElementsByName("hob");
+        //     for (var i = 0; i < elementsAll.length; i++){
+        //         elementsAll[i].checked = true;
+        //     }
+        // }
+        function onclickAll() {
+            var elementsAll = document.getElementsByTagName("input")
+            for (var i = 0; i < elementsAll.length; i++){
+                elementsAll[i].checked = true;
+            }
+        }
+
+
+        function onclickNo() {
+            var elementsNo = document.getElementsByName("hob");
+            for (var i = 0; i < elementsNo.length; i++){
+                elementsNo[i].checked = false;
+            }
+        }
+        function onclickReverse() {
+            var elementsReverse = document.getElementsByName("hob");
+            for (var i = 0; i < elementsReverse.length; i++){
+                elementsReverse[i].checked = !elementsReverse[i].checked;
+            }
+        }
+    </script>
+</head>
+<body>
+    爱好：
+    <input type="checkbox" name="hob" value="cpp" checked="checked">c++
+    <input type="checkbox" name="hob" value="java">java
+    <input type="checkbox" name="hob" value="javascript">javascript
+    <input type="checkbox" name="hob" value="mysql">mysql
+    <input type="checkbox" name="hob" value="c">c<br/>
+
+    <button onclick="onclickAll()">全选</button>
+    <button onclick="onclickReverse()">反选</button>
+    <button onclick="onclickNo()">全不选</button>
+
+</body>
+</html>
